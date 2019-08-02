@@ -1,0 +1,17 @@
+.quote i{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div h6{
+    text-align: right;
+}
+
+ul a{
+    color: white;
+    text-decoration: underline;
+}
+
+footer{
+    text-align: right;
+}

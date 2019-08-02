@@ -1,0 +1,164 @@
+<!doctype html>
+<!-- Property of Kartavya Kothari
+Roll : 193050021 -->
+
+<html>
+    <head>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        
+        <!-- External css stylesheet -->
+        <script src="index.js"></script>
+        
+        <!-- Internal style sheet -->
+        <style>
+            body{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+        </style>
+
+        <title>Kartavya Kothari</title>
+    </head>
+    <body>
+        <div class="container" style="margin-top: 1px"><!-- In Line CSS -->
+            <!-- navbar component from getbootstrap.com  -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <!-- <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a> -->
+                    <a class="nav-item nav-link" href="#edu">Education</a><!-- Internal page links -->
+                    <a class="nav-item nav-link" href="#skills">Skills</a><!-- Internal page links -->
+                    <a class="nav-item nav-link" href="#links">Important Links</a><!-- Internal page links -->
+                    </div>
+                </div>
+            </nav>
+
+            </br>
+
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-sm-12">
+                        <img src="personal.jpg" id="avatar"alt="personal image">
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-sm-9 col-12 quote">
+                        <i>"We all know the truth: more connects us than separates us. 
+                        But in times of crisis the wise build bridges, while the 
+                        foolish build barriers. We must find a way to look after one 
+                        another as if we were one single tribe."</i> 
+                        <br><br>
+                        <h6> Black Panther, Black Panther (2018)</h6>
+                        <br>
+                        <div class="text-right"><button onclick="mastiMachaDo()" class="btn btn-danger">The fun button!</button></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Table component (only structure) from getbootstrap -->
+            <div>
+                <table class="table table-bordered" id="edu">
+                    <thead>
+                        <tr>
+                            <th scope="col">Institute</th>
+                            <th scope="col">When</th>
+                            <th scope="col">What</th>
+                            <th scope="col">Weblink</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">Indian Institute Of Technology, Bombay</th>
+                            <td>2019-2021</td>
+                            <td>Mtech CS</td>
+                            <td><a href="https://cse.iitb.ac.in" target="_blank">Web link</a></td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Vidyalankar Institute Of Technology, Wadala</th>
+                            <td>2015-2019</td>
+                            <td>B.E. in CS</td>
+                            <td><a href="http://vidyalankar.edu.in/" target="_blank">Web link</a></td>
+                        </tr>
+                        <tr>
+                            <td scope="row">IITians Pace Junior Science college, Powai</th>
+                            <td>2019-2021</td>
+                            <td>Science</td>
+                            <td><a href="http://www.pacejuniorsciencecollege.com/pace-jr-science-college-powai.php" target="_blank">Web link</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <br>
+            <hr>
+            <br>
+
+            <div class="jumbotron">
+                <div class="row">
+                    <div id="skills" class="col">
+                        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Skills</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>C/C++</li>
+                                        <li>Full stack development</li>
+                                        <li>Android development</li>
+                                        <li>Java</li>
+                                        <li>.NET core</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="subjects" class="col">
+                        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Subjects</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Fumdamentals of machine learning</li>
+                                        <li>Web mining</li>
+                                        <li>Program analysis</li>
+                                        <li>Crypographic techniques</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="links" class="col">
+                        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Important links</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li><a href="https://kartavyakothari.github.io" target="_blank">Personal website</a></li>
+                                        <li><a href="https://github.com/KartavyaKothari" target="_blank">Github</a></li>
+                                        <li><a href="https://linkedin.com/in/kartavyakothari" target="_blank">LinkedIn</a></li>
+                                        <li><a href="https://play.google.com/store/apps/developer?id=Kartavya+kothari" target="_blank">Play store</a></li>
+                                        <li><a href="mailto:kartavya.kothari24@gmail.com" target="_blank">eMail</a></li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <footer>
+                <p> &copy; Kartavya Kothari</p>
+            </footer>
+        </div>
+
+        <!-- JavaScript from getbootstrap.com-->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
